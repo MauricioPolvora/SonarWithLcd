@@ -47,9 +47,9 @@ void loop() {
   Serial.println (" cm");
   delay (120);
 
-  lcd.setCursor(0,0); // Sets the location at which subsequent text written to the LCD will be displayed
-  lcd.print("Distance: "); // Prints string "Distance" on the LCD
-  lcd.print(distance); // Prints the distance value from the sensor
+  lcd.setCursor(0,0); 
+  lcd.print("Distance: "); 
+  lcd.print(distance); 
   lcd.print(" cm");
   lcd.print("         ");
 
