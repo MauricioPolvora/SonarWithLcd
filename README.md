@@ -1,4 +1,4 @@
-# SonarWithLcd
+# SonarWithLcd And motor 
 
 Put sonar in pins: 
        TRIG- 3
@@ -7,3 +7,9 @@ Put sonar in pins:
 LCD in pins:
 
  8,9,10,11,12,13
+ 
+Motor in pins: 
+       ENABLE 5
+       DIR1 7
+       DIR2 6
+
